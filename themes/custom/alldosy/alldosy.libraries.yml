@@ -1,0 +1,12 @@
+custom-styling:
+  version: VERSION
+  css:
+    basic:
+      css/basic.css: {}
+    flexslider:
+      css/flexslider/flexslider.css: {}
+    animate:
+      css/animate/animate.min.css: {}
+  js:
+      js/basic.browserify.min.js: {}
+      js/dev/holder.min.js: {}

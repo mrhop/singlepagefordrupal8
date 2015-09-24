@@ -1,0 +1,18 @@
+name: Alldosy
+type: theme
+description: 'single page template.'
+package: Custom
+core: 8.x
+stylesheets-remove:
+  - '@classy/css/layout.css'
+regions:
+  header: Header
+  home: Home
+  about: About
+  product: Product
+  team: Team
+  case1: Case1
+  case2: Case2
+  contact: Contact
+  footer: Footer
+  content: Content

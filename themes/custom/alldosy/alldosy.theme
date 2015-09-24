@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+
+function alldosy_preprocess_html(&$variables) {
+  $user = Drupal::currentUser()->isAuthenticated();
+  if ($user) {
+  }else{
+    $variables['page']['#attached']['library']=[];
+  }
+  $variables['#attached']['library'][] = 'alldosy/custom-styling';
+}
+
+function alldosy_preprocess_page(&$variables) {
+}
